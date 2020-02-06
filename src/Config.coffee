@@ -46,6 +46,7 @@ class Config
     result = {}
     result.fancy2s = ad.indexOf('fancy2s') > -1
     result.xyzUpper = ad.indexOf('xyzUpper') > -1
+    result.fancym1s = ad.indexOf('fancy-1s') > -1
     result.rotations = ad.indexOf('rotations') > -1
     result.Zcode = "2"
     result.Zcode = "2'" if ad.indexOf('2p') > -1
